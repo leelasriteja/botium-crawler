@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "botium-connector-dialogflow": "^0.1.1"
+  },
+  "botium": {
+    "convodirs": [
+      "spec/convo"
+    ],
+    "expandConvos": true,
+    "expandUtterancesToConvos": false,
+    "expandScriptingMemoryToConvos": false
+  },
+  "devDependencies": {
+    "botium-bindings": "latest",
+    "botium-connector-echo": "latest",
+    "botium-crawler": "^0.0.20",
+    "mocha": "latest",
+    "mochawesome": "^7.1.3"
+  },
+  "scripts": {
+    "mocha": "mocha spec",
+    "test": "mocha spec --reporter mochawesome"
+  }
+}
