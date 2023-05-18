@@ -1,0 +1,45 @@
+[
+  {
+    "path": "help",
+    "script": "HELP\n\n#me\nhelp\n\n#bot\nSorry, can you say that again?\n",
+    "answers": [
+      "can I get coffee?",
+      "pen please"
+    ]
+  },
+  {
+    "path": "hello",
+    "script": "HELLO\n\n#me\nhello\n\n#bot\nHello! How can I help you?\n",
+    "answers": []
+  },
+  {
+    "path": "help;can I get coffee?",
+    "script": "HELP\n\n#me\nhelp\n\n#bot\nI missed what you said. What was that?\n\n#me\ncan I get coffee?\n\n#bot\nYes, we have coffee!\n",
+    "answers": [
+      "hi",
+      "hello"
+    ]
+  },
+  {
+    "path": "help;pen please",
+    "script": "HELP\n\n#me\nhelp\n\n#bot\nI missed that, say that again?\n\n#me\npen please\n\n#bot\nWhat is the number?\n",
+    "answers": [
+      "4"
+    ]
+  },
+  {
+    "path": "help;can I get coffee?;hi",
+    "script": "HELP\n\n#me\nhelp\n\n#bot\nI missed what you said. What was that?\n\n#me\ncan I get coffee?\n\n#bot\nWhat type of coffee would you like to have\n\n#me\nhi\n\n#bot\nHi! How are you doing?\n",
+    "answers": []
+  },
+  {
+    "path": "help;can I get coffee?;hello",
+    "script": "HELP\n\n#me\nhelp\n\n#bot\nCan you say that again?\n\n#me\ncan I get coffee?\n\n#bot\nYes, we have coffee!\n\n#me\nhello\n\n#bot\nGood day! What can I do for you today?\n",
+    "answers": []
+  },
+  {
+    "path": "help;pen please;4",
+    "script": "HELP\n\n#me\nhelp\n\n#bot\nI missed what you said. What was that?\n\n#me\npen please\n\n#bot\nWhat is the number?\n\n#me\n4\n\n#bot\nyeah we sell 4 pens\n",
+    "answers": []
+  }
+]

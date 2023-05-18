@@ -1,0 +1,13 @@
+HELP_Convo_2
+
+#me
+help
+
+#bot
+UTT_bot_2_SAY_THAT_ONE_MORE_TIME
+
+#me
+UTT_SHARED_me_5_CAN_I_GET_COFFEE
+
+#bot
+UTT_SHARED_bot_2_YES_WE_HAVE_COFFEE!

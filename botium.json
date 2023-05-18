@@ -1,0 +1,14 @@
+{
+  "botium": {
+    "Capabilities": {
+      "PROJECTNAME": "Dialogflow Sample",
+      "CONTAINERMODE": "dialogflow",
+      "DIALOGFLOW_PROJECT_ID": "testone-i9nj",
+      "DIALOGFLOW_CLIENT_EMAIL": "botium-test-srvc-account@testone-i9nj.iam.gserviceaccount.com",
+      "DIALOGFLOW_PRIVATE_KEY": "your private key",
+       "DIALOGFLOW_USE_INTENT": false
+    },
+    "Sources": {},
+    "Envs": {}
+  }
+}
